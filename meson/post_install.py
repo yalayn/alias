@@ -1,4 +1,11 @@
-# @Author: yordin
-# @Date:   2020-04-23T20:56:03-04:00
-# @Last modified by:   yordin
-# @Last modified time: 2020-04-23T20:56:03-04:00
+#! /usr/bin/env python3
+
+import os
+import subprocess
+
+install_prefix = os.environ['MESON_INSTALL_PREFIX']
+schemadir = os.path.join(install_prefix, 'share/glib-2.0/schemas')
+
+if not os.environ.get('DESTDIR'):
+    print('Compiling the gsettings schemas...')
+    subprocess.call(['glib-compile-schemas', schemadir])

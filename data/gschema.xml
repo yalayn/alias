@@ -4,22 +4,22 @@
         <key name="pos-x" type="i">
             <default>360</default>
             <summary>Horizontal position</summary>
-            <descripction>The save horizontal position of out window</descripction>
+            <description>The save horizontal position of out window</description>
         </key>
         <key name="pos-y" type="i">
             <default>360</default>
             <summary>Vertical position</summary>
-            <descripction>The save vertical position of out window</descripction>
+            <description>The save vertical position of out window</description>
         </key>
         <key name="window-width" type="i">
             <default>640</default>
             <summary>Window width</summary>
-            <descripction>The save widht of out window</descripction>
+            <description>The save widht of out window</description>
         </key>
         <key name="window-height" type="i">
             <default>400</default>
             <summary>Window height</summary>
-            <descripction>The save height of out window</descripction>
+            <description>The save height of out window</description>
         </key>
     </schema>
 </schemalist>
